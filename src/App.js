@@ -15,7 +15,7 @@ import Congrats from "./components/congrats/Congrats";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ""}>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<HomePage />} />
