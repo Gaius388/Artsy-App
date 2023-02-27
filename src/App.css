@@ -344,7 +344,6 @@ li {
   justify-content: right;
   position: relative;
   width: 5.3em;
-  /* border: 2px solid red; */
 }
 .creators_edit-progress {
   height: max(25vh, 7em);
@@ -440,7 +439,6 @@ li {
 }
 .marketplace {
   padding: 2em 5em;
-  /* display: none; */
 }
 
 .marketplace::placeholder {
@@ -1451,6 +1449,7 @@ input[type="checkbox"]:checked::before {
     border: none;
     font-size: 1.7rem;
     cursor: pointer;
+    z-index: 20;
   }
   .nav-close {
     display: block;
@@ -1491,7 +1490,6 @@ input[type="checkbox"]:checked::before {
     font-size: 2.5rem;
   }
   .home_description {
-    /* border: 2px solid red; */
     font-size: 1.3rem;
     font-weight: 500;
     width: 90%;
@@ -1522,17 +1520,16 @@ input[type="checkbox"]:checked::before {
   .animateMobile1 {
     margin: 0 auto;
     width: 100%;
-    transform: scale(1.1);
   }
   .animateMobile2 {
     margin: 0 auto;
     width: 100%;
-    transform: translateY(-205%);
+    transform: translateY(-205%) scale(0.9);
   }
   .animateMobile3 {
     margin: 0 auto;
     width: 100%;
-    transform: translateY(-100%) scale(1.1);
+    transform: translateY(-100%);
   }
   .feature_link {
     position: absolute;
@@ -1747,7 +1744,6 @@ input[type="checkbox"]:checked::before {
 
   .auction_section {
     padding: 2em;
-    /* display: none; */
   }
   .auction_section > h4 {
     padding-bottom: 1.5em;
@@ -1799,7 +1795,6 @@ input[type="checkbox"]:checked::before {
     grid-template-rows: auto;
   }
   .live_bid-section-1 {
-    border: 2px solid red;
     position: absolute;
     top: 0;
     z-index: 1;
@@ -1833,8 +1828,6 @@ input[type="checkbox"]:checked::before {
     display: grid;
     align-items: none;
     top: unset;
-    /* bottom: 0; */
-    border: 2px solid red;
     z-index: 5;
     color: white;
     margin-top: auto;
@@ -1966,6 +1959,12 @@ input[type="checkbox"]:checked::before {
   .congrats_woman {
     width: 65vw;
   }
+  .cheers_animation-parts {
+    display: none;
+  }
+  .cone1 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -2011,7 +2010,7 @@ input[type="checkbox"]:checked::before {
   .section_5 {
     margin: 3em 0 3em;
   }
-  .auction_place-bid button{
+  .auction_place-bid button {
     font-size: 0.7rem;
   }
   .checkout_shopping-cart1 {
@@ -2020,72 +2019,78 @@ input[type="checkbox"]:checked::before {
     gap: 1em;
   }
   .checkout_shopping-cart1 img {
-  width: 9em;
-  height: 9em;
+    width: 9em;
+    height: 9em;
   }
   .checkout_shopping-cart-description h4 {
-  font-size: 0.9rem;
-}
-.checkout_shopping-cart-description p {
-  font-size: 0.8rem;
-}
-.checkout_shopping-cart-description small {
-  font-size: 0.7rem;
-}
-.checkout_shopping-cart-price p {
-  font-size: 1.1rem;
-}
+    font-size: 0.9rem;
+  }
+  .checkout_shopping-cart-description p {
+    font-size: 0.8rem;
+  }
+  .checkout_shopping-cart-description small {
+    font-size: 0.7rem;
+  }
+  .checkout_shopping-cart-price p {
+    font-size: 1.1rem;
+  }
 
-.checkout_shopping-cart2-left button {
-  padding: 1em 4.5em;
-  font-size: 1rem;
-}
+  .checkout_shopping-cart2-left button {
+    padding: 1em 4.5em;
+    font-size: 1rem;
+  }
+  .feature__profile p {
+    font-size: 0.8rem;
+  }
+  .congrats_section-display h3 {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 320px) {
   .section_4 {
     height: 120vh;
   }
-    .home_heading{
+  .home_heading {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 280px) {
-.checkout_shopping-cart1 img {
-  width: 5.5em;
-  height: 5.5em;
+  .checkout_shopping-cart1 img {
+    width: 5.5em;
+    height: 5.5em;
   }
   .checkout_shopping-cart-description h2 {
-  font-size: 1rem;
-}
-.checkout_shopping-cart-price p {
-  font-size: 0.9rem;
-}
+    font-size: 1rem;
+  }
+  .checkout_shopping-cart-price p {
+    font-size: 0.9rem;
+  }
 
-.checkout_shopping-cart2-left button {
-  padding: 1em 3.5em;
-  font-size: 1rem;
-}
-.checkout_shipping1 button {
-  padding: 1em 2.5em;
-  font-size: 1rem;
-}
-.checkout_payment-wallet-1 {
-  display: grid;
-  justify-content: left;
-  margin-bottom: 1em;
-}
-.checkout_payment-wallet {
-  padding: 0 1em 0 2em;
-}
-.checkout_payment-wallet-1 p {
-  font-size: 1rem;
-}
-.connect_wallet-text {
-  width: 100%;
-  font-size: 0.9rem;
-  margin: 0 0 2em;
-}
-.checkout_shipping1 {
-  font-size: 0.8rem;
-}
+  .checkout_shopping-cart2-left button {
+    padding: 1em 3.5em;
+    font-size: 1rem;
+  }
+  .checkout_shipping1 button {
+    padding: 1em 2.5em;
+    font-size: 1rem;
+  }
+  .checkout_payment-wallet-1 {
+    display: grid;
+    justify-content: left;
+    margin-bottom: 1em;
+  }
+  .checkout_payment-wallet {
+    padding: 0 1em 0 2em;
+  }
+  .checkout_payment-wallet-1 p {
+    font-size: 1rem;
+  }
+  .connect_wallet-text {
+    width: 100%;
+    font-size: 0.9rem;
+    margin: 0 0 2em;
+  }
+  .checkout_shipping1 {
+    font-size: 0.8rem;
+  }
 }
