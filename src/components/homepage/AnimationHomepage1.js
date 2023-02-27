@@ -23,14 +23,14 @@ function AnimationHomepage1() {
           className="animateMobile1"
         />
         <img
-          src={animateMobile2}
-          alt="mobileAnimation"
-          className="animateMobile2"
-        />
-        <img
           src={animateMobile3}
           alt="mobileAnimation"
           className="animateMobile3"
+        />
+        <img
+          src={animateMobile2}
+          alt="mobileAnimation"
+          className="animateMobile2"
         />
       </div>
     </>

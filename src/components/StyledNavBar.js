@@ -2,7 +2,6 @@ import React from "react";
 import { BiSearch } from "react-icons/bi";
 import { BsCart2 } from "react-icons/bs";
 import { AiOutlineBell, AiOutlineClose } from "react-icons/ai";
-// import { FiMessageSquare } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";

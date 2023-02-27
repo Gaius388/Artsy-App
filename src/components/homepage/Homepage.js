@@ -30,6 +30,9 @@ const Homepage = () => {
             <AnimationHomepage1 />
             <AnimationHomepage1 />
           </div>
+          <div className="big__container-2">
+            <AnimationHomepage1 />
+          </div>
           <FeaturedHomepage />
           <section className="section_2">
             <h2>See Upcoming Auctions and Exhibitions</h2>
