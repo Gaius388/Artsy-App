@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Artsy-App/static/css/main.05c9b3f2.css",
+    "main.css": "/Artsy-App/static/css/main.aeef4081.css",
     "main.js": "/Artsy-App/static/js/main.03967896.js",
     "static/media/profile3.svg": "/Artsy-App/static/media/profile3.8a73a8e02a6d92fa90906b4439d0426e.svg",
     "static/media/profile2.svg": "/Artsy-App/static/media/profile2.528ddd67927d871d2df7e8d1b83a4509.svg",
@@ -80,11 +80,11 @@
     "static/media/cut_5.svg": "/Artsy-App/static/media/cut_5.06d227c48492fbc12fa39e98d37aedc2.svg",
     "static/media/cut_7.svg": "/Artsy-App/static/media/cut_7.e0d2c5d0cd3b917d3327eefa6ad31e33.svg",
     "static/media/ellipse.svg": "/Artsy-App/static/media/ellipse.dbbe085d6d16e0bc5971bc6af1c1fb52.svg",
-    "main.05c9b3f2.css.map": "/Artsy-App/static/css/main.05c9b3f2.css.map",
+    "main.aeef4081.css.map": "/Artsy-App/static/css/main.aeef4081.css.map",
     "main.03967896.js.map": "/Artsy-App/static/js/main.03967896.js.map"
   },
   "entrypoints": [
-    "static/css/main.05c9b3f2.css",
+    "static/css/main.aeef4081.css",
     "static/js/main.03967896.js"
   ]
 }
